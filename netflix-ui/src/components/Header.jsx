@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom'
 export default function Header(props) {
   const navigate = useNavigate()
   return (
-    <Container className='flex j-between a-center '>
+    <Container className='flex j-between a-center  '>
       <div className='logo'>
         <img src={logo} alt='Logo ' />
       </div>
